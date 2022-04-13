@@ -1,0 +1,61 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+
+/* the asterix indicated that it applies to everything */
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background-color: #f47e7d;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+.form {
+    padding: 40px 70px;
+    margin: 100px auto;
+    background-color: #ededed;
+    width: 500px;
+}
+
+.form-title {
+    text-align: center;
+    color: #8d8d8d;
+    font-weight: 500;
+}
+
+.input {
+    display: block;
+    
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #dfdfdf;
+}
+
+/* below is a method to select all elements that are buttons with type "submit */
+
+button[type ="submit"]{
+display: block;
+/* the padding syntax is short hand you can put 4 arguments for top bottom left and right */
+padding: 10px 40px;
+margin: 0px auto 20px auto;
+border: none;
+background-color: #7ed9d3;
+/* hex keys are generally 6 characters unledd you know the short hand */
+color: #fff;
+text-transform: capitalize;
+/* the cursor dictates wht is shown when the cursor hovers over the butto */
+cursor: pointer;
+transition: background-color 500ms;
+
+}
+button[type='submit']:hover{
+    background-color: #000;
+}
+label{
+    color: #8d8d8d;
+}
